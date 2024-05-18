@@ -2,11 +2,12 @@
 .maingallery {
   margin-top: 1rem;
   display:grid;
+  grid-template-rows: repeat(12, 35rem);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-areas:
-  "m4 m5 m5 m6"
-  "m4 m5 m5 m6"
+  "m4 m4 m5 m5"
+  "m4 m4 m5 m5"
   "m7 m7 m8 m9"
-  "m10 m11 m11 m12"
   "m10 m11 m11 m12"
   "m13 m13 m14 m14"
   "m13 m13 m14 m14"
@@ -37,10 +38,6 @@
 
 #p5 {
   grid-area:m5;
-}
-
-#p6 {
-  grid-area:m6;
 }
 
 #p7 {
@@ -147,7 +144,6 @@
  .maingallery {
     grid-template-areas:
       "m4 m5 m5"
-      "m4 m6 m6"
       "m7 m7 m8 "
       "m9 m9 m10"
       "m11 m11 m12"
@@ -168,10 +164,11 @@
   .maingallery {
     max-width:100%;
     padding:1rem;
+   grid-template-rows: repeat(18, 20rem);
+   grid-template-columns: repeat(2, 1fr);
     grid-template-areas:
       "m4 m4"
       "m5 m5"
-      "m6 m6"
       "m7 m7"
       "m8 m9"
       "m10 m10"
