@@ -21,7 +21,7 @@ html {
 .header {
   background-color: #f2c377;
   height: 15rem;
-  padding: 1rem;
+  padding: 1rem 4rem;
 
   display: flex;
   justify-content: space-between;
@@ -34,19 +34,15 @@ html {
 }
 
 .icon-sikkim > img {
+  width: 118px;
+}
+
+.sikkim-khadi-icon > img {
   width: 104px;
 }
 
-.sikkim-khadi-icon > img {
-  width: 88px;
-}
-
-.sikkim-khadi-icon > img {
-  width: 88px;
-}
-
 .icon-khadiindia > img {
-  width: 136px;
+  width: 152px;
 }
 
 .mobileNavBar {
@@ -498,6 +494,10 @@ font-size:23px;
 }
 
 @media  (max-width:810px) {
+
+    .header {
+      padding: 1rem 1rem;
+    }
 
     .mobile-header-title {
       font-size: 2.75rem;
