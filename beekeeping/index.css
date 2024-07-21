@@ -48,3 +48,26 @@ p {
 section {
   margin-bottom: 1rem;
 }
+
+.sec_pic {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  place-content: center;
+  gap: 0.1rem;
+}
+
+.sec_pic img {
+  width: 90%;
+}
+
+.box {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.long_pic {
+ height: 70%; 
+}
