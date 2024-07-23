@@ -108,3 +108,31 @@
   align-items: center;
 }
 
+@media (max-width: 768px) {
+  .acontents {
+    max-width: 100%;
+     font-size: 1.2rem; 
+    margin-left: 0;
+  }
+
+  .introContent {
+    margin-left: 0;
+  }
+    
+  .cut {
+     font-size: 9.8px;
+    }
+
+    .pmegp__header_text {
+      font-size: 1.5rem;
+    }
+    
+.pmegp__header_text :nth-child(2), 
+.pmegp__header_text :nth-child(3) {
+  font-size: 1rem;
+}
+    
+.amm_icon img {
+  width: 10rem;
+}
+}
