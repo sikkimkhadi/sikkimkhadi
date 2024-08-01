@@ -51,7 +51,50 @@
   text-transform: capitalize;
   font-size: 2rem;
 }
+  
 
+.pmegp__attach__table {
+    display: grid;
+    grid-template-columns: repeat(5, 16.7rem);
+    grid-template-rows: 7rem repeat(5, 3rem);
+    place-content: center;
+    font-size: 1.4rem;
+    margin: 1.2rem 0;
+    padding: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+    
+    
+  }
+  
+.box {
+    width: 16.7rem;
+    height: 3rem; 
+    border-top: 1px solid #f1bb67;
+    border-right: 1px solid #f1bb67;
+  }
+  
+.pmegp__attach__table .left {
+    border-left: 1px solid #f1bb67;
+  }
+  
+.pmegp__attach__table .btm {
+    border-bottom: 1px solid #f1bb67;
+  }
+  
+.box:nth-child(1),
+.box:nth-child(2),
+.box:nth-child(3),
+.box:nth-child(4),
+.box:nth-child(5)
+{
+    height: 7rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
 .pmegp__contents {
   padding: 1rem;
 }

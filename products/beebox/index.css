@@ -86,27 +86,27 @@ h1 {
 #d5 {
   grid-area:d5;
 }
-@media (max-width:1100px) {
-  .gallery .beebox {
-    max-width:100%;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 40rem);
-    grid-template-areas: 
-    "b1 b1"
-    "b2 b3"
-    "b4 b4";
-  }
-}
 
 @media (max-width:768px) {
-  .gallery .beebox {
-    max-width:100%;
-    grid-template-rows: repeat(4,  40rem);
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: 
-    "b1 b1"
-    "b2 b2"
-    "b3 b3"
-    "b4 b4";
-  }
+
+.layer1{
+  margin-top: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 30rem);
+  grid-template-areas:
+  "b1 b1"
+  "b2 b2"
+  "b3 b4"
+  "b5 b5";
+}
+
+.layer2{
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 30rem);
+  grid-template-areas:
+  "d1 d1"
+   "d2 d2 "
+    "d3 d4"
+  "d5 d5";
+}
 }
