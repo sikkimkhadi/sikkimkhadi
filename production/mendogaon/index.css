@@ -112,9 +112,4 @@
   z-index: 555; /* Ensure it's above other content */
   transition: all 0.3s ease;
 }
-
-
-.material-symbols-outlined {
-  vertical-align: middle;
-}
   
