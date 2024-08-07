@@ -3,6 +3,9 @@ let pics =[
     "pic":"./assets/images/carousel/bhawan.jpg",
   },
   {
+    "pic":"./assets/images/carousel/staffs.jpg",
+  },
+  {
     "pic":"./assets/images/carousel/buddha.jpg",
   },
   {
