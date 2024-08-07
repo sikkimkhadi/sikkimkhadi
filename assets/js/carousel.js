@@ -1,5 +1,8 @@
 let pics =[
   {
+    "pic":"./assets/images/carousel/bhawan.jpg",
+  },
+  {
     "pic":"./assets/images/carousel/buddha.jpg",
   },
   {
@@ -9,9 +12,9 @@ let pics =[
   {
     "pic":"./assets/images/carousel/office.jpg",
   },
-  {
-    "pic":"./assets/images/carousel/turmerics.jpg",
-  },
+  // {
+  //   "pic":"./assets/images/carousel/turmerics.jpg",
+  // },
   {
     "pic":"./assets/images/carousel/products2.jpg",
   }
